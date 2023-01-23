@@ -4,6 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Validation\Rules;
+use Illuminate\Support\Facades\Hash;
+
+
 
 class UserController extends Controller
 {
@@ -13,12 +17,17 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        User::all();
-
-        return view('users' , [
+    { 
+        return view('users.users' , [
             'header'  =>  'Users Management',
             'users'   =>   User::all()     
+        ]);
+    }
+
+    public function form()
+    {
+        return view('users.form', [
+            'header1'  =>  'Add User',
         ]);
     }
 
@@ -30,7 +39,24 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //  for validation
+        $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
+            'password' => ['required', Rules\Password::defaults()],
+        ]);
+        //for storing after validation
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+        ]);
+
+        session()->flash('status', 'User added successfully!');
+
+        //redirect to the list of users
+        return redirect('/users');
+
     }
 
     /**
