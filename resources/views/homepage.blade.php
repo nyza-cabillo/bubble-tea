@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Cha'ah BUbble Tea</title>
+  <title>Cha'ah Bubble Tea</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,13 +28,13 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: imenu - v3.10.0
-  * Template URL: https://bootstrapmade.com/imenu-bootstrap-menu-websites-template/
+  * Template Name: iportfolio - v3.10.0
+  * Template URL: https://bootstrapmade.com/portfolio-bootstrap-portfolio-websites-template/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-
+ 
 <body>
 
   <!-- ======= Mobile nav toggle button ======= -->
@@ -465,13 +465,13 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>imenu</span></strong>
+        &copy; Copyright <strong><span>iportfolio</span></strong>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/imenu-bootstrap-menu-websites-template/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>

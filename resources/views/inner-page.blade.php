@@ -68,7 +68,7 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
+  <main id="main"> 
 
     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
