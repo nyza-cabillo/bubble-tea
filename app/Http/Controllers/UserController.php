@@ -27,7 +27,7 @@ class UserController extends Controller
     public function form()
     {
         return view('users.form', [
-            'header1'  =>  'Add User',
+            'header'  =>  'Add User',
         ]);
     }
 
@@ -67,7 +67,12 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        //
+        $user = User::find($id);
+
+        return view('users.form', [
+            'header'  =>  'Update User',
+            'user'    =>   $user
+        ]);
     }
 
     /**

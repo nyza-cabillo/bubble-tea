@@ -46,7 +46,7 @@
 
       <div class="profile">
         <img src="assets/img/chaah.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Alex Smith</a></h1>
+        <h1 class="text-light"><a href="index.html">Cha'ah Bubble Tea</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="https://mobile.twitter.com/chaahbyjuyens" class="btn btn-dark btn-social mx-2" rel="noopener noreferrer" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/chaahbyjuyens1/reviews" class="btn btn-dark btn-social mx-2" rel="noopener noreferrer" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -71,6 +71,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
+
       <h1>Cha'ah Bubble Tea</h1>
       <p>Great coffee <span class="typed" data-typed-items="will make your meal tastier!"></span></p>
     </div>
@@ -168,11 +169,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Menu</h2>
-          <div class="text-center"><br>
-              <a class="btn btn-primary btn-xl text-uppercase" href="https://www.facebook.com/chaahbyjuyens1/posts/pfbid0Qxyp2sv7wiMAW22HLXMrTMyXL6w1U4tgcKFDEixQKh3pPfrkDpaS19LTDMBe5cQ9l"  rel="noopener noreferrer" target="_blank" >
-              Our Menu</a>
-            </div>        
+          <h2>Menu</h2>     
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -183,11 +180,11 @@
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 menu-item filter-app">
+          <div class="col-lg-4 col-md-6 menu-item">
             <div class="menu-wrap">
-              <img src="assets/img/menu/11.jpg" class="img-fluid" alt="">
+              <img src="assets/img/menu/food1.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/11.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food1.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -195,19 +192,19 @@
 
           <div class="col-lg-4 col-md-6 menu-item filter-web">
             <div class="menu-wrap">
-              <img src="assets/img/menu/12.jpg" class="img-fluid" alt="">
+              <img src="assets/img/menu/food2.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/12.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food2.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 menu-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="menu-wrap">
-              <img src="assets/img/menu/13.jpg" class="img-fluid" alt="">
+              <img src="assets/img/menu/food3.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/13.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food3.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -215,9 +212,9 @@
 
           <div class="col-lg-4 col-md-6 menu-item filter-card">
             <div class="menu-wrap">
-              <img src="assets/img/menu/14.jpg" class="img-fluid" alt="">
+              <img src="assets/img/menu/food4.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/14.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food4.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -225,9 +222,9 @@
 
           <div class="col-lg-4 col-md-6 menu-item filter-web">
             <div class="menu-wrap">
-              <img src="assets/img/menu/15.jpg" class="img-fluid" alt="">
+              <img src="assets/img/menu/food5.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/15.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food5.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -235,14 +232,44 @@
 
           <div class="col-lg-4 col-md-6 menu-item filter-app">
             <div class="menu-wrap">
-              <img src="assets/img/menu/16.jpg" class="img-fluid" alt="">
+              <img src="assets/img/menu/food6.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/16.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food6.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
+          <div class="col-lg-4 col-md-6 menu-item filter-card">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/food7.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/food7.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 menu-item filter-card">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/food8.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/food8.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 menu-item filter-web">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/food9.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/food9.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          
           
 
         </div>
@@ -419,39 +446,13 @@
                 <h4>Call:</h4>
                 <p>09190075586</p>
               </div>
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+             
             </div>
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3941.3314777116693!2d125.5331367!3d8.9415709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c157d206cca7%3A0xf997725934505929!2sCha&#39;ah%20Bubble%20Tea!5e0!3m2!1sen!2sph!4v1674532008289!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 350px;" allowfullscreen></iframe>
           </div>
 
         </div>
@@ -460,22 +461,6 @@
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>iportfolio</span></strong>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 

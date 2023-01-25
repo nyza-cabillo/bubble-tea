@@ -7,17 +7,19 @@
     </x-slot>
 
     <div class="py-12">
+        @if ( session('status') )      
+            <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
+                <div class="p-4 mb-4 text-sm tex-green-500 bg-green-100 rounded-lg dark:bg-gray-800 dark:text-green-400" role="alert">
+                    <span class="fornt-medium">Succes Alert!</span> {{ session('status') }}
+                </div>
+            </div>
+        @endif
+
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
-            </div>
-        </div>
-
-
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 my-5">
-            <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
-                    asbdaasdsfafasfaff
                     
+                     
                         <h2 class="text-center">
                             {{ $header }}
                         </h2>
