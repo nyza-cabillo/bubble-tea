@@ -62,7 +62,7 @@
           <li><a href="#menu" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Menu</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="{{ url('/login') }}">Login</a></li>
+          <li class="nav-item"><a class="nav-link scrollto" href="{{ url('/login') }}"><i class="bi bi-person-circle"></i>Login</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>

@@ -22,7 +22,10 @@ class UserController extends Controller
             'header'  =>  'Users Management',
             'users'   =>   User::all()     
         ]);
+
+        return view('change-password');
     }
+    
 
     public function form()
     {
@@ -30,6 +33,7 @@ class UserController extends Controller
             'header'  =>  'Add User',
         ]);
     }
+    
 
     /**
      * Store a newly created resource in storage.
@@ -73,6 +77,12 @@ class UserController extends Controller
             'header'  =>  'Update User',
             'user'    =>   $user
         ]);
+
+    
+        $user = User::all();
+
+        return redirect('/users');
+    
     }
 
     /**
@@ -84,7 +94,19 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        // For Validation
+        $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255']
+        ]);
+
+        $user = User::find($id);
+
+        $user->update($request->all());
+
+        session()->flash('status', 'Updated Successfully!');
+
+        return redirect()->route('users');    
     }
 
     /**
@@ -95,6 +117,13 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $user = User::find($id);
+        $user->delete();
+
+        session()->flash('status', 'Deleted Successfully!');
+
+        return redirect('/users');
     }
+
+    
 }

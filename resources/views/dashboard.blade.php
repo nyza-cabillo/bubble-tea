@@ -10,10 +10,19 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
+                <!-- ======= menu Section ======= -->
+                <section id="menu" class="menu section-bg">
+                <div class="container">
 
-                    <h1>Welcome to Ch'ah Bubblte Tea {{ Auth::user()-> name }}!!</h1>
-                    {{ __("You're now logged in!") }}
+                    <div class="section-title">
+                    <h2>Menu Board</h2>     
+                    </div>
 
+                    
+                    </div>
+
+                </div>
+                </section><!-- End menu Section -->
 
                 </div>
             </div>
