@@ -125,5 +125,9 @@ class UserController extends Controller
         return redirect('/users');
     }
 
+    public function editPassword()
+    {
+        return view('editPassword');
+    }
     
-}
+} 

@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.10.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -159,28 +154,28 @@
   }
 
   /**
-   * Porfolio isotope and filter
+   * Menu isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+    let menuContainer = select('.menu-container');
+    if (menuContainer) {
+      let menuIsotope = new Isotope(menuContainer, {
+        itemSelector: '.menu-item'
       });
 
-      let portfolioFilters = select('#portfolio-flters li', true);
+      let menuFilters = select('#menu-flters li', true);
 
-      on('click', '#portfolio-flters li', function(e) {
+      on('click', '#menu-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        menuFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        menuIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        menuIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -189,16 +184,16 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate menu lightbox 
    */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
+  const menuLightbox = GLightbox({
+    selector: '.menu-lightbox'
   });
 
   /**
-   * Portfolio details slider
+   * menu details slider
    */
-  new Swiper('.portfolio-details-slider', {
+  new Swiper('.menu-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {

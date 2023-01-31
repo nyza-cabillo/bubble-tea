@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Users') }} <a href="{{ url('/users/add') }}"><button class="float-right rounded-none bg-green-400 p-1 hover:bg-green-600">Add Users</button></a>
+            {{ __('Users') }} <a href="{{ url('/users/add') }}"><button class="float-right rounded-lg bg-green-400 p-1 hover:bg-green-600">Add Users</button></a>
 
         </h2>
     </x-slot>
@@ -13,7 +13,7 @@
                     <span class="fornt-medium">Succes Alert!<br></span> {{ session('status') }}
                 </div>
             </div>
-        @endif
+        @endif 
 
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
@@ -42,11 +42,13 @@
                                 <td class="text-center border-separate border-spacing-2 border">
                                 
                                     <a href="{{ url('/users/update/' . $user->id) }}">
-                                        <button class="rounded-none bg-green-400 p-1 hover:bg-green-600">Update</button>
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600">Update</button>
                                     </a>
-                                   
+                                    <a href="{{ url('/users/editPassword/' . $user->id) }}">
+                                        <button class="rounded-lg bg-cyan-600	 p-1 hover:bg-cyan-300	">Edit Password</button>
+                                    </a>                                   
                                     <a href="{{ url('/users/delete/' . $user->id) }}">
-                                        <button class="rounded-none bg-red-500 p-1 hover:bg-red-600">Delete</button>
+                                        <button class="rounded-lg bg-red-500 p-1 hover:bg-red-600">Delete</button>
                                     </a>
                                     
                                 </td>

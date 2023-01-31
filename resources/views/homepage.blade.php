@@ -60,7 +60,6 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#menu" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Menu</span></a></li>
-          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li class="nav-item"><a class="nav-link scrollto" href="{{ url('/login') }}"><i class="bi bi-person-circle"></i>Login</a></li>
         </ul>
@@ -167,15 +166,9 @@
     <!-- ======= menu Section ======= -->
     <section id="menu" class="menu section-bg">
       <div class="container">
-
         <div class="section-title">
-          <h2>Menu</h2>     
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-               <p><strong>Highlights for Dining</strong></p>
-          </div>
+          <h2>Menu</h2>
+          <p>Menu Highlights</p>
         </div>
 
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="100">
@@ -184,7 +177,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food1.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food1.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food1.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -194,7 +187,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food2.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food2.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food2.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -204,7 +197,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food3.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food3.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food3.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -214,7 +207,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food4.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food4.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food4.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -224,7 +217,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food5.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food5.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food5.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -234,7 +227,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food6.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food6.jpg" data-gallery="menuGallery" class="menu-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food6.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -244,7 +237,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food7.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food7.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food7.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -254,7 +247,7 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food8.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food8.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food8.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -264,7 +257,16 @@
             <div class="menu-wrap">
               <img src="assets/img/menu/food9.jpg" class="img-fluid" alt="">
               <div class="menu-links">
-                <a href="assets/img/menu/food9.jpg" data-gallery="menuGallery" class="menu-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/menu/food9.jpg" data-gallery="menuGallery" class="menu-lightbox""><i class="bx bx-plus"></i></a>
+                <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 menu-item filter-web">
+            <div class="menu-wrap">
+              <img src="assets/img/menu/food1.jpg" class="img-fluid" alt="">
+              <div class="menu-links">
+                <a href="assets/img/menu/food1.jpg" data-gallery="menuGallery" class="menu-lightbox"><i class="bx bx-plus"></i></a>
                 <a href="menu-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -427,7 +429,7 @@
 
         <div class="row" data-aos="fade-in">
 
-          <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -446,13 +448,16 @@
                 <h4>Call:</h4>
                 <p>09190075586</p>
               </div>
-             
+              <div class="align-items-stretch" data-aos="fade-up">
+                <img src="assets/img/bg8.jpg" class="img-fluid" alt="" width="500px%" height="300px">
+              </div>
             </div>
 
           </div>
 
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3941.3314777116693!2d125.5331367!3d8.9415709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c157d206cca7%3A0xf997725934505929!2sCha&#39;ah%20Bubble%20Tea!5e0!3m2!1sen!2sph!4v1674532008289!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 350px;" allowfullscreen></iframe>
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch " data-aos="fade-up">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3941.3314777116693!2d125.5331367!3d8.9415709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c157d206cca7%3A0xf997725934505929!2sCha&#39;ah%20Bubble%20Tea!5e0!3m2!1sen!2sph!4v1674532008289!5m2!1sen!2sph"
+               frameborder="0" style="border:0; width: 100%; height: 700px;" allowfullscreen></iframe>
           </div>
 
         </div>
