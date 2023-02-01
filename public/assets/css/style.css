@@ -78,7 +78,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #304F51;
+  background: #1e4620;
   overflow-y: auto;
 }
 
@@ -333,6 +333,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about{
+  background: #A3C585;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -370,6 +373,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  background: #A3C585
 }
 
 .facts .count-box {
@@ -419,6 +423,9 @@ section {
 /*--------------------------------------------------------------
 # menu
 --------------------------------------------------------------*/
+.menu{
+  background: #87ab69;
+}
 .menu .menu-item {
   margin-bottom: 30px;
 }
@@ -585,6 +592,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background: #A3C585;
+}
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -640,6 +650,10 @@ section {
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+.testimonials{
+  background: #A3C585;
+}
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -732,13 +746,16 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background: #b3cf99;
+}
 .contact {
   padding-bottom: 130px;
 }
 
 .contact .info {
   padding: 30px;
-  background: #8abaae;
+  background: #85C285;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1003,4 +1020,24 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+*{
+  box-sizing: border-box;
+}
+  
+.carousel-cell{
+  width: 66%;
+  height: 500px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Raleway", sans-serif;
+}
+
+  
+.carousel-cell::before{
+  display: block;
+  content: '';
 }

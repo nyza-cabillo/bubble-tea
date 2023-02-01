@@ -37,7 +37,7 @@
 
                         @foreach ($users as $user)
                              <tr>
-                                <td class="text-centerborder-separate border-spacing-2 border">{{ $user->name }}</td>
+                                <td class="text-center border-separate border-spacing-2 border">{{ $user->name }}</td>
                                 <td class="text-center border-separate border-spacing-2 border">{{ $user->email }}</td>
                                 <td class="text-center border-separate border-spacing-2 border">
                                 

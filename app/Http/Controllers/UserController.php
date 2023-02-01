@@ -65,7 +65,7 @@ class UserController extends Controller
 
     /**
      * Display the specified resource.
-     *
+     * 
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
@@ -128,6 +128,10 @@ class UserController extends Controller
     public function editPassword()
     {
         return view('editPassword');
+    }
+    public function makeAn()
+    {
+        return view('make-an');
     }
     
 } 

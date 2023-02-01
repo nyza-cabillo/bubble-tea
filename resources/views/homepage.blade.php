@@ -27,6 +27,15 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap.min.js"></script>
+
+
   <!-- =======================================================
   * Template Name: iportfolio - v3.10.0
   * Template URL: https://bootstrapmade.com/portfolio-bootstrap-portfolio-websites-template/
@@ -60,6 +69,7 @@
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#menu" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Menu</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bi bi-record-btn"></i> <span>Announcement</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li class="nav-item"><a class="nav-link scrollto" href="{{ url('/login') }}"><i class="bi bi-person-circle"></i>Login</a></li>
         </ul>
@@ -69,8 +79,9 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    
     <div class="hero-container" data-aos="fade-in">
-
+      
       <h1>Cha'ah Bubble Tea</h1>
       <p>Great coffee <span class="typed" data-typed-items="will make your meal tastier!"></span></p>
     </div>
@@ -281,6 +292,7 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
+
       <div class="container">
 
         <div class="section-title">
@@ -328,7 +340,15 @@
                                   GCash
               </p>
           </div>
-          
+                  <div>
+                      <h3>Announcement</h3>
+                        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+                          <div class="carousel-cell" style="background-image: url(assets/img/report/11.jpg)"></div>
+                          <div class="carousel-cell" style="background-image: url(assets/img/report/2.jpg)"></div>
+                          <div class="carousel-cell" style="background-image: url(assets/img/report/13.jpg)"></div>
+                          <div class="carousel-cell" style="background-image: url(assets/img/report/1.jpg)"></div>
+                  </div>
+          </div>
         </div>
 
       </div>
@@ -482,7 +502,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>

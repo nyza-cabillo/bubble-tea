@@ -2,6 +2,7 @@
  
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AnnouncementController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -43,18 +44,18 @@ Route::get('/users/editPassword/{id}',[UserController::class, 'editPassword'])
         ->middleware(['auth', 'verified']);
 
 
-
-
-
 Route::get('/users/delete/{id}',[UserController::class, 'index'])
         ->middleware(['auth', 'verified']);
 Route::get('/users/delete/{id}',[UserController::class, 'destroy'])
         ->middleware(['auth', 'verified']);
        
 
-     
+Route::get('/announcement', [AnnouncementController::class, 'index'])
+        ->middleware(['auth', 'verified'])->name('announcement');
+Route::get('/make-an',[UserController::class, 'makeAn'])
+        ->middleware(['auth', 'verified']);
 
-
+ 
 
 
 Route::middleware('auth')->group(function () {
