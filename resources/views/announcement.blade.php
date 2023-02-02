@@ -117,6 +117,7 @@
                                 <th class="border-separate border-spacing-2 border">Discussion</th>
                                 <th class="border-separate border-spacing-2 border">Description</th>
                                 <th class="border-separate border-spacing-2 border">Date</th>
+                                <th class="border-separate border-spacing-2 border">Action</th>
                             </tr>
                         </thead>
 
@@ -136,6 +137,15 @@
                                     <td class="text-center border-separate border-spacing-2 border">
                                             POSTED: January 27, 2023
                                     </td>
+                                    <td class="text-center border-separate border-spacing-2 border">
+                                        <a href="{{ url('/make-an') }}">
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600 border-separate border-spacing-2 border">Add Announcement</button> <br>
+                                        </a>
+                                        <a href="{{ url('/announcement/delete/') }}">
+                                            <button class="rounded-lg bg-cyan-600 p-1 hover:bg-cyan-300	border-separate border-spacing-2 border">Delete Announcement</button>
+                                        </a>                                   
+                                       
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td class="border-separate border-spacing-2 border">WE ARE HIRING!</td>
@@ -150,6 +160,15 @@
                                     </td>
                                     <td class="text-center border-separate border-spacing-2 border">
                                             POSTED: November 26, 2022
+                                    </td>
+                                    <td class="text-center border-separate border-spacing-2 border">
+                                        <a href="{{ url('/make-an') }}">
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600 border-separate border-spacing-2 border">Add Announcement</button> <br>
+                                        </a>
+                                        <a href="{{ url('/announcement/delete/') }}">
+                                            <button class="rounded-lg bg-cyan-600 p-1 hover:bg-cyan-300	border-separate border-spacing-2 border">Delete Announcement</button>
+                                        </a>                                   
+                                       
                                     </td>
                                 </tr>
                                 <tr>
@@ -166,6 +185,15 @@
                                     <td class="text-center border-separate border-spacing-2 border">
                                             POSTED: August 11, 2022
                                     </td>
+                                    <td class="text-center border-separate border-spacing-2 border">
+                                        <a href="{{ url('/make-an') }}">
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600 border-separate border-spacing-2 border">Add Announcement</button> <br>
+                                        </a>
+                                        <a href="{{ url('/announcement/delete/') }}">
+                                            <button class="rounded-lg bg-cyan-600 p-1 hover:bg-cyan-300	border-separate border-spacing-2 border">Delete Announcement</button>
+                                        </a>                                   
+                                       
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td class="border-separate border-spacing-2 border">RAFFLE DRAW!
@@ -179,6 +207,15 @@
                                     <td class="text-center border-separate border-spacing-2 border">
                                             POSTED: December 19, 2022
                                     </td>
+                                    <td class="text-center border-separate border-spacing-2 border">
+                                        <a href="{{ url('/make-an') }}">
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600 border-separate border-spacing-2 border">Add Announcement</button> <br>
+                                        </a>
+                                        <a href="{{ url('/announcement/delete/') }}">
+                                            <button class="rounded-lg bg-cyan-600 p-1 hover:bg-cyan-300	border-separate border-spacing-2 border">Delete Announcement</button>
+                                        </a>                                   
+                                       
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td class="border-separate border-spacing-2 border">BUY 1 TAKE 1!</td>
@@ -188,6 +225,15 @@
                                     </td>
                                     <td class="text-center border-separate border-spacing-2 border">
                                             POSTED: December 16, 2022
+                                    </td>
+                                    <td class="text-center border-separate border-spacing-2 border">
+                                        <a href="{{ url('/make-an') }}">
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600 border-separate border-spacing-2 border">Add Announcement</button> <br>
+                                        </a>
+                                        <a href="{{ url('/announcement/delete/') }}">
+                                            <button class="rounded-lg bg-cyan-600 p-1 hover:bg-cyan-300	border-separate border-spacing-2 border">Delete Announcement</button>
+                                        </a>                                   
+                                       
                                     </td>
                                 </tr>
                                 <tr>
@@ -200,6 +246,15 @@
                                     <td class="text-center border-separate border-spacing-2 border">
                                             POSTED: December 07, 2022
                                     </td>
+                                    <td class="text-center border-separate border-spacing-2 border">
+                                        <a href="{{ url('/make-an') }}">
+                                        <button class="rounded-lg bg-green-400 p-1 hover:bg-green-600 border-separate border-spacing-2 border">Add Announcement</button> <br>
+                                        </a>
+                                        <a href="{{ url('/announcement/delete/') }}">
+                                            <button class="rounded-lg bg-cyan-600 p-1 hover:bg-cyan-300	border-separate border-spacing-2 border">Delete Announcement</button>
+                                        </a>                                   
+                                       
+                                    </td>
                                 </tr>
                                 
                         </tbody>
@@ -207,10 +262,7 @@
                     </table>
                 </div>
             </div>
-            <a href="{{ url('/make-an') }}"><button class="py-2.5 px-6 text-white bg-green-800 rounded-xl hover:bg-green-500 mx-6">
-                   <span class="text-sm fornt-semibold tracking-wide"> Add Announcement</span>
-                </button>
-            </a>
+           
 
         </div>
     </div>
