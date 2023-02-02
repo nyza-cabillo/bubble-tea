@@ -1,5 +1,8 @@
 <?php
-
+ 
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\AnnouncementController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +17,51 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+
+
+Route::get('/users',[UserController::class, 'index'])
+         ->middleware(['auth', 'verified'])
+        ->name('users');
+
+Route::get('/users/add',[UserController::class, 'form'])
+        ->middleware(['auth', 'verified']);
+Route::post('/users/add',[UserController::class, 'store'])
+        ->middleware(['auth', 'verified']);
+
+Route::get('/users/update/{id}',[UserController::class, 'show'])
+        ->middleware(['auth', 'verified']);
+Route::post('/users/update/{id}', [UserController::class, 'update'])
+        ->middleware(['auth', 'verified']);
+
+Route::get('/users/editPassword/{id}',[UserController::class, 'editPassword'])
+        ->middleware(['auth', 'verified']);
+
+
+Route::get('/users/delete/{id}',[UserController::class, 'index'])
+        ->middleware(['auth', 'verified']);
+Route::get('/users/delete/{id}',[UserController::class, 'destroy'])
+        ->middleware(['auth', 'verified']);
+       
+
+Route::get('/announcement', [AnnouncementController::class, 'index'])
+        ->middleware(['auth', 'verified'])->name('announcement');
+Route::get('/make-an',[UserController::class, 'makeAn'])
+        ->middleware(['auth', 'verified']);
+
+ 
+
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__.'/auth.php';
