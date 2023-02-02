@@ -129,9 +129,6 @@ class UserController extends Controller
     {
         return view('editPassword');
     }
-    public function makeAn()
-    {
-        return view('make-an');
-    }
+    
     
 } 

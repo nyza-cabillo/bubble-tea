@@ -341,7 +341,7 @@
               </p>
           </div>
                   <div>
-                      <h3>Announcement</h3>
+                      
                         <div class="carousel" data-flickity='{ "autoPlay": true }'>
                           <div class="carousel-cell" style="background-image: url(assets/img/report/11.jpg)"></div>
                           <div class="carousel-cell" style="background-image: url(assets/img/report/2.jpg)"></div>

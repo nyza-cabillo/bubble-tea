@@ -86,7 +86,15 @@ class AnnouncementController extends Controller
      */
     public function destroy(Announcement $announcement)
     {
-        //
+        $announcement->delete();
+
+        session()->flash('status', 'Deleted Successfully!');
+
+        return redirect('/announcement');
+    }
+    public function makeAn()
+    {
+        return view('make-an');
     }
 
     

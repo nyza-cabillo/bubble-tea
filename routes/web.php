@@ -52,7 +52,9 @@ Route::get('/users/delete/{id}',[UserController::class, 'destroy'])
 
 Route::get('/announcement', [AnnouncementController::class, 'index'])
         ->middleware(['auth', 'verified'])->name('announcement');
-Route::get('/make-an',[UserController::class, 'makeAn'])
+Route::get('/make-an',[AnnouncementController::class, 'makeAn'])
+        ->middleware(['auth', 'verified']);
+Route::post('/announcement',[AnnouncementController::class, 'destroy'])
         ->middleware(['auth', 'verified']);
 
  
